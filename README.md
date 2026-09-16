@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="icon.png" width="160" height="160" alt="ComfyUI-AngelosKar Logo">
+</p>
+
 # ComfyUI-AngelosKar
 
 A clean, modular custom node pack for [ComfyUI](https://github.com/comfyanonymous/ComfyUI) focused on automated batch image processing, modern folder selection, multi-garment VTON workflow control, and dynamic canvas tag toggling.
