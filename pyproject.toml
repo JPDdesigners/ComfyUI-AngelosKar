@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "comfyui-angeloskar"
+version = "1.0.0"
+description = "Productivity custom nodes for ComfyUI: image list scheduler, auto image list loader, Windows folder picker, multi-garment VTON controller, and canvas tag muter/bypasser."
+readme = "README.md"
+license = { text = "MIT" }
+authors = [
+    { name = "AngelosKar" }
+]
+keywords = [
+    "comfyui",
+    "custom-nodes",
+    "batch-processing",
+    "image-scheduler",
+    "folder-picker",
+    "vton",
+    "workflow-automation"
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: End Users/Desktop",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Multimedia :: Graphics",
+]
+dependencies = [
+    "torch",
+    "numpy",
+    "Pillow",
+    "aiohttp",
+]
+
+[project.urls]
+Homepage = "https://github.com/AngelosKar-code/ComfyUI-AngelosKar"
+Repository = "https://github.com/AngelosKar-code/ComfyUI-AngelosKar"
+
+[tool.comfy]
+PublisherId = "angeloskar"
+DisplayName = "ComfyUI-AngelosKar"
+Icon = ""
