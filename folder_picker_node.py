@@ -137,7 +137,11 @@ try:
                 mode="file",
                 title="Select Image File",
                 file_filter=[
-                    ("Images", "*.jpg;*.jpeg;*.png;*.webp;*.bmp;*.tiff;*.gif"),
+                                        (
+                        "Images",
+                        "*.jpg;*.jpeg;*.png;"
+                        "*.webp;*.bmp;*.tiff;*.gif",
+                    ),
                     ("All Files", "*.*"),
                 ]
             )
