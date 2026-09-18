@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "comfyui-angeloskar"
-version = "1.0.1"
+version = "1.0.2"
 description = "Productivity custom nodes for ComfyUI: image list scheduler, auto image list loader, Windows folder picker, multi-garment VTON controller, and canvas tag muter/bypasser."
 readme = "README.md"
 license = { text = "MIT" }
